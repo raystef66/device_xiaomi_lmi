@@ -71,5 +71,9 @@
                 android:value="com.android.settings.category.ia.display" />
         </activity>
 
+        <service
+            android:name=".popupcamera.PopupCameraService"
+            android:permission="PopupCameraService">
+        </service>
     </application>
 </manifest>
