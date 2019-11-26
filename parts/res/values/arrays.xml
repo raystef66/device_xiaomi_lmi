@@ -96,4 +96,54 @@
         <item>"2,0,0,-2,-4,0,0"</item>
     </string-array>
 
+    <string-array name="dirac_scenario_pref_titles">
+        <item>@string/dirac_headset_scenario_intelligent</item>
+        <item>@string/dirac_headset_scenario_music</item>
+        <item>@string/dirac_headset_scenario_video</item>
+        <item>@string/dirac_headset_scenario_vocal</item>
+    </string-array>
+
+    <string-array name="dirac_scenario_pref_values">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>6</item>
+    </string-array>
+
+    <!-- Popup camera effect names -->
+    <string-array name="popupcamera_effects_names" translatable="false">
+        <item>popup_muqin_up.ogg</item>
+        <item>popup_muqin_down.ogg</item>
+        <item>popup_yingyan_up.ogg</item>
+        <item>popup_yingyan_down.ogg</item>
+        <item>popup_mofa_up.ogg</item>
+        <item>popup_mofa_down.ogg</item>
+        <item>popup_jijia_up.ogg</item>
+        <item>popup_jijia_down.ogg</item>
+        <item>popup_chilun_up.ogg</item>
+        <item>popup_chilun_down.ogg</item>
+        <item>popup_cangmen_up.ogg</item>
+        <item>popup_cangmen_down.ogg</item>
+    </string-array>
+
+    <string-array name="popupcamera_effects_entries">
+        <item>@string/action_none</item>
+        <item>@string/popup_title_muqin</item>
+        <item>@string/popup_title_yingyan</item>
+        <item>@string/popup_title_mofa</item>
+        <item>@string/popup_title_jijia</item>
+        <item>@string/popup_title_chilun</item>
+        <item>@string/popup_title_cangmen</item>
+    </string-array>
+
+    <string-array name="popupcamera_effects_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
 </resources>

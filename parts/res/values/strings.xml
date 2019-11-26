@@ -66,4 +66,20 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
 
+    <string name="dirac_headset_optimization">Sound optimization</string>
+    <string name="dirac_headset_scenario_intelligent">Smart</string>
+    <string name="dirac_headset_scenario_music">Music</string>
+    <string name="dirac_headset_scenario_video">Video</string>
+    <string name="dirac_headset_scenario_vocal">Voice</string>
+
+    <!-- Popup camera settings -->
+    <string name="popup_led_title">Visual effect</string>
+    <string name="popup_led_summary">Show animation when the front camera appears and retracts</string>
+    <string name="popup_title">Front camera effects</string>
+    <string name="popup_title_muqin">Xylophone</string>
+    <string name="popup_title_yingyan">Condor</string>
+    <string name="popup_title_mofa">Magic</string>
+    <string name="popup_title_jijia">Mecha</string>
+    <string name="popup_title_chilun">Gearwheel</string>
+    <string name="popup_title_cangmen">Cabin door</string>
 </resources>
