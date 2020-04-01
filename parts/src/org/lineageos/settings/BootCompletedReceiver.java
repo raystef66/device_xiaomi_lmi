@@ -53,8 +53,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         FileUtils.writeLine(HBM_NODE, hbmEnabled ? "1" : "0");
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
-        try {
-            FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
-        } catch(Exception e) {}
+        FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
     }
 }
