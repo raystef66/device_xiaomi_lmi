@@ -21,9 +21,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Extra FOD stuff
 TARGET_HAS_FOD := true
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="lmi-user 10 QKQ1.191117.002 V12.0.8.0.QJKCNXM release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Redmi/lmi/lmi:10/QKQ1.191117.002/V12.0.8.0.QJKCNXM:user/release-keys
