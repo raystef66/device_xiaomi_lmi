@@ -398,4 +398,45 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Specifies the maximum burn-in offset displacement from the center. If -1, no maximum value
+         will be used. -->
+    <integer name="config_burnInProtectionMaxRadius">70</integer>
+
+    <!-- Specifies the minimum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMinHorizontalOffset">-15</integer>
+
+    <!-- Specifies the maximum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMaxHorizontalOffset">15</integer>
+
+    <!-- Specifies the minimum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMinVerticalOffset">-40</integer>
+
+    <!-- Specifies the maximum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Default value for proximity check on screen wake
+         NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">100</integer>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
+    <integer name="config_shutdownBatteryTemperature">680</integer>
+
+    <!-- Full screen aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
+    <!-- SystemInfo Sys Nodes -->
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
 </resources>
