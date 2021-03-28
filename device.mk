@@ -32,5 +32,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/xiaomi
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
