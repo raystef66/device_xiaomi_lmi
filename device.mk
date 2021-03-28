@@ -11,10 +11,6 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Audio configs
