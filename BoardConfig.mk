@@ -5,7 +5,7 @@
 #
 
 # Inherit from xiaomi sm8250-common
--include device/xiaomi/sm8250-common/BoardConfigCommon.mk
+include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/lmi
 
@@ -28,4 +28,4 @@ TARGET_KERNEL_CONFIG := vendor/lmi_defconfig
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # inherit from the proprietary version
--include vendor/xiaomi/lmi/BoardConfigVendor.mk
+include vendor/xiaomi/lmi/BoardConfigVendor.mk
