@@ -20,9 +20,6 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lmi-perf_defconfig
 
-# Properties
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-
 # Inherit from xiaomi sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
