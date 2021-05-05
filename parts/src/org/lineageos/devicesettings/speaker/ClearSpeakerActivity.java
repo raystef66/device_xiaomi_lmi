@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.speaker;
+package org.lineageos.devicesettings.speaker;
 
 import android.app.Activity;
 import android.app.Fragment;
