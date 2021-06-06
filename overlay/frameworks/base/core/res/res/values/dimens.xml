@@ -23,4 +23,11 @@
 
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">26dp</dimen>
+
+    <!-- Default radius of the software rounded corners -->
+    <dimen name="rounded_corner_radius">160px</dimen>
+
+    <!-- Default adjustment for the software rounded corners
+         since they are not perfectly round -->
+    <dimen name="rounded_corner_radius_adjustment">55px</dimen>
 </resources>
