@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Popup camera -->
+    <string name="popup_title">Настройки передней камеры</string>
+    <string name="popup_led_title">LED индикация камеры</string>
+    <string name="popup_led_summary">Показывать LED индикацию при открытии и закрытии фронтальной камеры</string>
+    <string name="popup_sound_title">Звуковой эффект</string>
+    <string name="popup_sound_none">Выключен</string>
+    <string name="popup_sound_muqin">Ксилофон</string>
+    <string name="popup_sound_yingyan">Кондор</string>
+    <string name="popup_sound_mofa">Магия</string>
+    <string name="popup_sound_jijia">Механика</string>
+    <string name="popup_sound_chilun">Шестеренка</string>
+    <string name="popup_sound_cangmen">Дверь каюты</string>
+    <string name="popup_camera_tip">Внимание!</string>
+    <string name="popup_camera_takeback_failed_times_calibrate">Не удалось закрыть переднюю камеру несколько раз. Попробуйте откалибровать камеру.</string>
+    <string name="popup_camera_popup_failed_times_calibrate">Не удалось открыть переднюю камеру несколько раз. Попробуйте откалибровать камеру.</string>
+    <string name="popup_camera_calibrate_running">Передняя камера не может использоваться во время калибровки.</string>
+    <string name="popup_camera_calibrate_now">Калибровка</string>
+    <string name="popup_camera_calibrate_failed">Не удалось выполнить калибровку</string>
+    <string name="popup_camera_calibrate_success">Калибровка прошла успешно. Теперь вы можете открыть фронтальную камеру.</string>
+    <string name="stop_operate_camera_frequently">Вы открываете фронтальную камеру слишком часто.</string>
+    <string name="takeback_camera_front_failed">Не удалось закрыть переднюю камеру. Повторите попытку.</string>
+    <string name="popup_camera_front_failed">Не удалось открыть переднюю камеру. Повторите попытку.</string>
+</resources>
