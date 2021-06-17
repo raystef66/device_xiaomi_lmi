@@ -84,6 +84,7 @@
     <string name="popup_led_title">Visual effect</string>
     <string name="popup_led_summary">Show animation when the front camera appears and retracts</string>
     <string name="popup_title">Front camera effects</string>
+    <string name="popup_title_sound">Sound effect</string>
     <string name="popup_title_muqin">Xylophone</string>
     <string name="popup_title_yingyan">Condor</string>
     <string name="popup_title_mofa">Magic</string>
