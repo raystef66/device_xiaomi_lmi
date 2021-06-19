@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.dirac;
+package org.lineageos.devicesettings.dirac;
 
 import android.content.Context;
 import android.content.Intent;

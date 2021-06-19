@@ -23,7 +23,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import org.lineageos.devicesettings.popupcamera.PopupCameraUtils;
-import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.devicesettings.dirac.DiracUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
