@@ -33,3 +33,6 @@ BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/relea
 # FOD
 TARGET_HAS_FOD =: true
 EXTRA_FOD_ANIMATIONS := true
+
+# Dirac
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
