@@ -439,4 +439,7 @@
     <!-- SystemInfo Sys Nodes -->
     <integer name="config_sysCPUTempMultiplier">1000</integer>
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
+
+    <!-- Enable face auth only when swiping security view -->
+    <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
 </resources>
