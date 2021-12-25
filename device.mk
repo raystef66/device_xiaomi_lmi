@@ -373,7 +373,9 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
-    SystemUI
+    SystemUI \
+    Nexuslauncher \
+    lawnchair
 
 # Telephony
 PRODUCT_PACKAGES += \
