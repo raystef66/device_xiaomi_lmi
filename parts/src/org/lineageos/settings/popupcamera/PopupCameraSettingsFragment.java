@@ -19,17 +19,15 @@ package org.lineageos.devicesettings.popupcamera;
 import android.os.Bundle;
 import android.view.MenuItem;
 import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 import org.lineageos.devicesettings.R;
 
 public class PopupCameraSettingsFragment
-    extends PreferenceFragment implements OnPreferenceChangeListener {
+    extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
 
   @Override
   public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
     addPreferencesFromResource(R.xml.popup_settings);
-    getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
   }
 
   @Override
