@@ -3,6 +3,10 @@ get_prop(hal_camera, vendor_camera_sensor_prop)
 
 allow system_app sysfs_leds:dir r_dir_perms;
 allow system_app sysfs_leds:file rw_file_perms;
+
+type sysfs_display, sysfs_type, fs_type;
+allow system_app sysfs_display:file rw_file_perms;
+
 allow system_app vendor_sysfs_battery_supply:dir { search };
 allow system_app vendor_sysfs_battery_supply:file { open read getattr };
 allow system_app proc_pagetypeinfo:file { read };
