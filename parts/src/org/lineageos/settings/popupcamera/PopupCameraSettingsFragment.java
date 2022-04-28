@@ -17,30 +17,23 @@
 package org.lineageos.devicesettings.popupcamera;
 
 import android.os.Bundle;
-import android.view.MenuItem;
+
 import androidx.preference.Preference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
+
 import org.lineageos.devicesettings.R;
 
-public class PopupCameraSettingsFragment
-    extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
+public class PopupCameraSettingsFragment extends PreferenceFragment implements
+        OnPreferenceChangeListener {
 
-  @Override
-  public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-    addPreferencesFromResource(R.xml.popup_settings);
-  }
-
-  @Override
-  public boolean onPreferenceChange(Preference preference, Object newValue) {
-    return false;
-  }
-
-  @Override
-  public boolean onOptionsItemSelected(MenuItem item) {
-    if (item.getItemId() == android.R.id.home) {
-      getActivity().onBackPressed();
-      return true;
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        addPreferencesFromResource(R.xml.popup);
     }
-    return false;
-  }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return false;
+    }
 }
