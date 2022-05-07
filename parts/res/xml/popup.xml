@@ -8,7 +8,7 @@
         android:title="@string/popup_led_title"
         android:summary="@string/popup_led_summary"
         android:icon="@drawable/ic_popup_led"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <ListPreference
         android:key="popup_led_color"
@@ -17,7 +17,7 @@
         android:entries="@array/popup_led_color_entries"
         android:entryValues="@array/popup_led_color_values"
         android:icon="@drawable/ic_popup_led_color"
-        android:defaultValue="7" />
+        android:defaultValue="5" />
 
     <ListPreference
         android:key="popup_sound"
@@ -26,6 +26,6 @@
         android:entries="@array/popup_sound_entries"
         android:entryValues="@array/popup_sound_values"
         android:icon="@drawable/ic_popup_sound"
-        android:defaultValue="-1" />
+        android:defaultValue="0" />
 
 </PreferenceScreen>

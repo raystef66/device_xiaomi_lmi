@@ -29,10 +29,10 @@ public class PopupCameraPreferences {
     private static final boolean LED_DEFAULT_VALUE = true;
 
     private static final String LED_COLOR_KEY = "popup_led_color";
-    private static final String LED_COLOR_DEFAULT_VALUE = "7";
+    private static final String LED_COLOR_DEFAULT_VALUE = "5";
 
     private static final String SOUND_KEY = "popup_sound";
-    private static final String SOUND_DEFAULT_VALUE = "-1";
+    private static final String SOUND_DEFAULT_VALUE = "0";
 
     private SharedPreferences mSharedPrefs;
 
