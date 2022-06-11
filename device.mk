@@ -266,6 +266,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0-service.xml
 
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.motor@1.0.vendor
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
