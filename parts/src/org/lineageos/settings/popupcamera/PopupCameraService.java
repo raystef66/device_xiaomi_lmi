@@ -48,6 +48,8 @@ import vendor.xiaomi.hardware.motor.V1_0.IMotor;
 import vendor.xiaomi.hardware.motor.V1_0.IMotorCallback;
 import vendor.xiaomi.hardware.motor.V1_0.MotorEvent;
 
+import java.util.NoSuchElementException;
+
 public class PopupCameraService extends Service implements Handler.Callback {
 
     private static final String TAG = "PopupCameraService";
@@ -156,7 +158,7 @@ public class PopupCameraService extends Service implements Handler.Callback {
                     status == Constants.MOTOR_STATUS_TAKEBACK_JAMMED) {
                 mHandler.sendEmptyMessage(Constants.MSG_CAMERA_CLOSED);
             }
-        } catch (RemoteException e) {
+        } catch (NoSuchElementException | RemoteException e) {
             // Do nothing
         }
     }
