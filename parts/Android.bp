@@ -5,11 +5,8 @@
 //
 
 android_app {
-    name: "DeviceParts",
-    defaults: [
-        "SettingsLibDefaults",
-    ],
-
+    name: "XiaomiParts",
+   
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
     certificate: "platform",
@@ -18,8 +15,7 @@ android_app {
     privileged: true,
 
     static_libs: [
-        "androidx.core_core",
-        "androidx.preference_preference",
+        "org.lineageos.settings.resources",
         "//hardware/xiaomi:vendor.xiaomi.hardware.motor-V1.0-java",
         "SettingsLib",
     ],
