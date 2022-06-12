@@ -22,7 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.lineageos.devicesettings.popupcamera.PopupCameraUtils;
+import org.lineageos.settings.popupcamera.PopupCameraUtils;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;

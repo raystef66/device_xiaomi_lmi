@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.devicesettings.popupcamera;
+package org.lineageos.settings.popupcamera;
 
 import android.os.Bundle;
 
@@ -22,7 +22,7 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 
-import org.lineageos.devicesettings.R;
+import org.lineageos.settings.R;
 
 public class PopupCameraSettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener {
