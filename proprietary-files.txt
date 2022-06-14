@@ -191,6 +191,7 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
+vendor/lib64/liba2dpoffload.so
 
 # Audio firmware 
 vendor/firmware/tfa98xx.cnt
