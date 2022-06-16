@@ -28,3 +28,6 @@ allow system_app { cgroup vendor_sysfs_graphics }:file rw_file_perms;
 allow system_app { motor_device vendor_sysfs_graphics }:chr_file rw_file_perms;
 
 r_dir_file(system_app, vendor_sysfs_graphics)
+
+# Allow KProfiles to be adjusted by a system app
+allow system_app sysfs_kprofiles:file rw_file_perms;

@@ -99,6 +99,12 @@ on boot
     # Touch Sampling Rate
     chown system system /sys/devices/virtual/touch/touch_dev/bump_sample_rate
     chmod 0664 /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+    
+     # Allow system to manipulate KProfiles modes and parameters
+    chown system system /sys/module/kprofiles/parameters/auto_kprofiles
+    chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
+    chown system system /sys/module/kprofiles/parameters/kp_mode
+    chmod 0660 /sys/module/kprofiles/parameters/kp_mode
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
