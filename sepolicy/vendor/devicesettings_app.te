@@ -1,0 +1,5 @@
+allow devicesettings_app vendor_sysfs_graphics:dir search;
+allow devicesettings_app sysfs_display:file { open write getattr };
+
+# Allow xiaomiparts to read and write to vendor_sysfs_graphics
+r_dir_file(devicesettings_app, vendor_sysfs_graphics)
