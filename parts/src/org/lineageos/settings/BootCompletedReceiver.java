@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import org.lineageos.settings.popupcamera.PopupCameraUtils;
+import org.lineageos.settings.touchsampling.TouchSamplingUtils;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
@@ -43,6 +44,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         DiracUtils.initialize(context);
         DozeUtils.checkDozeService(context);
         PopupCameraUtils.startService(context);
+        TouchSamplingUtils.restoreSamplingValue(context);
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
 
         boolean hbmEnabled = sharedPrefs.getBoolean(HBM_ENABLE_KEY, false);
