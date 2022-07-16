@@ -165,42 +165,42 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Camera
-vendor/lib64/camera/com.qti.actuator.cmi_sunny_ultra_dw9800.so
-vendor/lib64/camera/com.qti.eeprom.cmi_ofilm_s5k3t2_gt24p64.so
-vendor/lib64/camera/com.qti.eeprom.cmi_semco_ov08a10_m24c64.so
-vendor/lib64/camera/com.qti.eeprom.cmi_semco_ov08a10_m24c64x.so
-vendor/lib64/camera/com.qti.eeprom.cmi_semco_s5k2l7_m24c64x.so
-vendor/lib64/camera/com.qti.eeprom.cmi_semco_s5khmx_m24c128.so
-vendor/lib64/camera/com.qti.eeprom.cmi_semco_s5khmx_m24c128x.so
-vendor/lib64/camera/com.qti.eeprom.cmi_semco_s5khmx_m24c64.so
-vendor/lib64/camera/com.qti.eeprom.cmi_sunny_imx350_gt24p64b.so
-vendor/lib64/camera/com.qti.eeprom.cmi_sunny_s5k5e8yx_gt24p64.so
-vendor/lib64/camera/com.qti.eeprom.hawkeye_semco_ov48c_m24c64x.so
+# Camera 
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b.so
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b_st.so
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_gt24p64.so
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_lc898124_gt24p64.so
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov13b10_gt24p64.so
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_s5k3t2_gt24p64.so
+vendor/lib64/camera/com.qti.eeprom.lmi_sunny_s5k5e9yx04_gt24p64.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so
-vendor/lib64/camera/com.qti.sensor.cmi_s5k5e8yx_macro.so
-vendor/lib64/camera/com.qti.sensor.imx350_cmi.so
+vendor/lib64/camera/com.qti.sensor.gc02m1_lmi.so
 vendor/lib64/camera/com.qti.sensor.imx563.so
-vendor/lib64/camera/com.qti.sensor.ov08a10_cmi.so
-vendor/lib64/camera/com.qti.sensor.ov48c_hawkeye.so
-vendor/lib64/camera/com.qti.sensor.s5k2l7_cmi.so
-vendor/lib64/camera/com.qti.sensor.s5k3t2_cmi.so
-vendor/lib64/camera/com.qti.sensor.s5khmx_cmi.so
-vendor/lib64/camera/com.qti.sensor.s5khmx_wide_cmi.so
-vendor/lib64/camera/com.qti.sensormodule.cmi_ofilm_s5k3t2.bin
-vendor/lib64/camera/com.qti.sensormodule.cmi_semco_ov08a10_tele4x_v1.bin
-vendor/lib64/camera/com.qti.sensormodule.cmi_semco_s5k2l7_tele2x.bin
-vendor/lib64/camera/com.qti.sensormodule.cmi_semco_s5khmx_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.cmi_semco_s5khmx_wide_v1.bin
-vendor/lib64/camera/com.qti.sensormodule.cmi_sunny_imx350_ultra_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.hawkeye_semco_ov48c_wide.bin
-vendor/lib64/camera/com.qti.tuned.cmi_ofilm_s5k3t2.bin
-vendor/lib64/camera/com.qti.tuned.cmi_semco_ov08a10_tele4x.bin
-vendor/lib64/camera/com.qti.tuned.cmi_semco_s5k2l7_tele2x.bin
-vendor/lib64/camera/com.qti.tuned.cmi_semco_s5khmx_wide.bin
-vendor/lib64/camera/com.qti.tuned.cmi_sunny_imx350_ultra_wide.bin
+vendor/lib64/camera/com.qti.sensor.imx686_lmi.so
+vendor/lib64/camera/com.qti.sensor.ov08a10_lmi.so
+vendor/lib64/camera/com.qti.sensor.ov13b10_lmi.so
+vendor/lib64/camera/com.qti.sensor.s5k3t2_lmi.so
+vendor/lib64/camera/com.qti.sensor.s5k5e9yx04_lmi.so
+vendor/lib64/camera/com.qti.sensormodule.lmi_ofilm_gc02m1_depth.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_mp.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_mp_st.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_st.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_ov08a10_tele.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_ov08a10_tele_lc124.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_ov13b10_ultra.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_s5k3t2_front.bin
+vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_s5k5e9yx04_macro.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.lmi_ofilm_gc02m1_depth.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_imx686_wide.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_imx686_wide_st.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_ov08a10_tele.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_ov13b10_ultra.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_ov13b10_ultra_pro.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_s5k3t2_front.bin
+vendor/lib64/camera/com.qti.tuned.lmi_sunny_s5k5e9yx04_macro.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
@@ -231,11 +231,12 @@ vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamerapostproc.so
-vendor/lib64/libarcdualcamsat.so
 vendor/lib64/libcamera_dirty.so
-vendor/lib64/libcamera_scene.so
 vendor/lib64/libcamera_nn_stub.so
+vendor/lib64/libcamera_scene.so
+vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcvp_common.so
@@ -246,8 +247,6 @@ vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
-vendor/lib64/libhdrdynamic.so
-vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libmegface.so
@@ -261,7 +260,6 @@ vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgo_video_colourkeeping.so
-vendor/lib64/libmialgo_video_enhance.so
 vendor/lib64/libmialgo_video_seg.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
@@ -274,8 +272,6 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
 vendor/lib64/libremosaichvx_stub.so
 vendor/lib64/libremosaiclib.so
-vendor/lib64/libpowercore.so
-vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libsnpe_adsp.so
@@ -283,6 +279,8 @@ vendor/lib64/libsnpe_dsp_domains.so
 vendor/lib64/libsnpe_dsp_domains_system.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
 vendor/lib64/libsnpe_dsp_domains_v2_system.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
@@ -291,6 +289,7 @@ vendor/lib64/libst_soft_isp_shared.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libswregistrationalgo.so
+vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
@@ -298,12 +297,10 @@ vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
-vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
-# Camera-arcsoft
+# Camera (arcsoft) 
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
 vendor/lib64/libarcsoft_distortion_correction.so
@@ -320,8 +317,17 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_superportrait.so
 vendor/lib64/libarcsoft_super_night_raw.so
 
-# Camera-camerax
+# Camera (camerax) 
 vendor/lib/libcamxexternalformatutils.so
+vendor/lib/libcamxfacialfeatures.so
+vendor/lib/libcamxfdalgo.so
+vendor/lib/libcamxfdengine.so
+vendor/lib/libcamxifestriping.so
+vendor/lib/libcamximageformatutils.so
+vendor/lib/libcamxncs.so
+vendor/lib/libcamxstatscore.so
+vendor/lib/libcamxswprocessalgo.so
+vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
 vendor/lib64/libcamxfdalgo.so
@@ -333,13 +339,13 @@ vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 
-# Camera-components
+# Camera components
 vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
 vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so
 vendor/lib64/camera/components/com.arcsoft.node.superportrait.so
 vendor/lib64/camera/components/com.facepp.node.siq.so
-vendor/lib64/camera/components/com.mi.node.AIIE.so
 vendor/lib64/camera/components/com.mi.node.aiasd.so
+vendor/lib64/camera/components/com.mi.node.AIIE.so
 vendor/lib64/camera/components/com.mi.node.bodyslim.so
 vendor/lib64/camera/components/com.mi.node.distortioncorrection.so
 vendor/lib64/camera/components/com.mi.node.hdr.so
@@ -396,31 +402,20 @@ vendor/lib64/camera/components/com.xiaomi.node.tracker.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
 
-# Camera-configs
+# Camera configs
 vendor/etc/camera/ai_enhance.dlc
+vendor/etc/camera/almalence_sr_params_moon_lmi.config
 vendor/etc/camera/almalence_sr_params_tele.config
-vendor/etc/camera/almalence_sr_params_tele4x.config
-vendor/etc/camera/almalence_sr_params_tele4x_iso100.config
-vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config
-vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom30x.config
-vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom40x.config
-vendor/etc/camera/almalence_sr_params_tele4x_moon.config
-vendor/etc/camera/almalence_sr_params_tele4x_zoom20x.config
-vendor/etc/camera/almalence_sr_params_tele4x_zoom30x.config
-vendor/etc/camera/almalence_sr_params_tele4x_zoom40x.config
-vendor/etc/camera/almalence_sr_params_tele_iso100.config
 vendor/etc/camera/almalence_sr_params_wide.config
-vendor/etc/camera/almalence_sr_params_wide_64M.config
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/bokehParams.json
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/CFR_para_HD_V03.bin
-vendor/etc/camera/CFR_para_T_2x_V03.bin
-vendor/etc/camera/CFR_para_T_4x_V03.bin
-vendor/etc/camera/CFR_para_UW_V03.bin
-vendor/etc/camera/CFR_para_W_V03.bin
+vendor/etc/camera/CFR_para_HD_V01.bin
+vendor/etc/camera/CFR_para_T_3x_V01.bin
+vendor/etc/camera/CFR_para_UW_V01.bin
+vendor/etc/camera/CFR_para_W_V01.bin
+vendor/etc/camera/com.xiaomi.dcal.wd.golden
 vendor/etc/camera/com.xiaomi.dcal.wt.fake
-vendor/etc/camera/com.xiaomi.dcal.wt4x.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/det_quantize.dlc
@@ -430,6 +425,7 @@ vendor/etc/camera/goturn_search_dsp.dlc
 vendor/etc/camera/goturn_target_dsp.dlc
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/hdrd_ui9_params.config
+vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
 vendor/etc/camera/LDC_FPC_TUNING_DATA_AI.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
@@ -449,16 +445,41 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
 
-# Camera-firmware
+# Camera firmware
 vendor/firmware/CAMERA_ICP.elf
-vendor/firmware/cmi_tele4x_ois.coeff
-vendor/firmware/cmi_tele4x_ois.mem
-vendor/firmware/cmi_tele4x_ois.prog
-vendor/firmware/cmi_wide_ois.coeff
-vendor/firmware/cmi_wide_ois.prog
+vendor/firmware/lmi_tele_lc898124_ois.coeff
+vendor/firmware/lmi_tele_lc898124_ois.prog
+vendor/firmware/lmi_tele_rohm_ois.coeff
+vendor/firmware/lmi_tele_rohm_ois.prog
+vendor/firmware/lmi_wide_ois_ST.coeff
+vendor/firmware/lmi_wide_ois_ST.prog
 
-# Camera-configs
-vendor/etc/public.libraries.txt
+# Camera motor 
+vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
+vendor/etc/init/init.lmi.rc
+vendor/etc/step_motor/mi_camera_config.xml
+vendor/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so
+vendor/lib64/libmivendor_module_calibration.so
+vendor/lib64/libmivendor_module_hall.so
+vendor/lib64/libmivendor_module_motor.so
+vendor/lib64/mi.motor.daemon.so
+
+# Camera motor sound
+media/audio/ui/popup_cangmen_down.ogg
+media/audio/ui/popup_cangmen_up.ogg
+media/audio/ui/popup_chilun_down.ogg
+media/audio/ui/popup_chilun_up.ogg
+media/audio/ui/popup_jijia_down.ogg
+media/audio/ui/popup_jijia_up.ogg
+media/audio/ui/popup_mofa_down.ogg
+media/audio/ui/popup_mofa_up.ogg
+media/audio/ui/popup_muqin_down.ogg
+media/audio/ui/popup_muqin_up.ogg
+media/audio/ui/popup_yingyan_down.ogg
+media/audio/ui/popup_yingyan_up.ogg
+
+# Camera (postproc)
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # CDSP
 vendor/bin/cdsprpcd
