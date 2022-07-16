@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "CmiSystemUI",
+    name: "LmiSystemUI",
     vendor: true,
 }
