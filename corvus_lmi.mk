@@ -11,21 +11,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit from the Lineage configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_SUPPORTS_QUICK_TAP := true
+# Gapps
+USE_GAPPS := true
 
-PRODUCT_NAME := aosp_lmi
+PRODUCT_NAME := corvus_lmi
 PRODUCT_DEVICE := lmi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := POCO F2 Pro
+FOD_RESOURCES := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/lmi/lmi:12/SKQ1.211006.001/V13.0.3.0.SJACNXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/lmi/lmi:12/RKQ1.211001.001/V13.0.1.0.SJKMIXM:user/release-keys

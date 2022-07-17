@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lmi.mk
+    $(LOCAL_DIR)/corvus_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lmi-eng \
-    aosp_lmi-user \
-    aosp_lmi-userdebug
+    corvus_lmi-eng \
+    corvus_lmi-user \
+    corvus_lmi-userdebug
