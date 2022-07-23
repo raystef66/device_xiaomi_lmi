@@ -23,6 +23,12 @@ vendor/lib64/libacdbrtac.so
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
+vendor/lib/libadsprpc.so
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+vendor/lib/libssc_default_listener.so
+vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libmdsprpc.so
@@ -531,6 +537,9 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib/libcdsprpc.so
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libcdsp_default_listener.so
@@ -1345,15 +1354,26 @@ vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
 
 # Snapdragon Computer Vision Engine
+vendor/lib/libfastcvdsp_stub.so
 -vendor/lib/libfastcvopt.so
 vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
+vendor/lib/libscveCommon.so
+vendor/lib/libscveCommon_stub.so
+vendor/lib/libscveObjectSegmentation.so
+vendor/lib/libscveObjectSegmentation_stub.so
+vendor/lib/libscveObjectTracker.so
+vendor/lib/libscveObjectTracker_stub.so
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveCommon_stub.so
 vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 # Soter
 -vendor/app/SoterService/SoterService.apk
