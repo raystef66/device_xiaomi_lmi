@@ -653,6 +653,17 @@ vendor/lib64/libsdm-disp-vndapis.so|2f1abd975b1f1dbabcc410e56c29ac296adcc411
 vendor/lib64/libsdmextension.so|d89a38b3f8ecc283b75621a7702bad8d8417d0f0
 vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
 
+# Display postprocessing
+vendor/bin/hw/vendor.display.color@1.0-service
+vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/lib64/vendor.display.color@1.0.so 
+vendor/lib64/vendor.display.color@1.1.so 
+vendor/lib64/vendor.display.color@1.2.so 
+vendor/lib64/vendor.display.color@1.3.so 
+vendor/lib64/vendor.display.color@1.4.so 
+vendor/lib64/vendor.display.color@1.5.so 
+vendor/lib64/vendor.display.postproc@1.0.so
+
 # DPM
 framework/tcmclient.jar
 system_ext/bin/dpmd
