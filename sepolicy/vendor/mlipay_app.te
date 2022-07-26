@@ -15,7 +15,7 @@ allow mlipay_app activity_service:service_manager find;
 r_dir_file(mlipay_app, firmware_file)
 set_prop(mlipay_app, vendor_payment_security_prop);
 
-get_prop(mlipay_app, vendor_fp_prop)
+get_prop(mlipay_app, vendor_fingerprint_prop)
 
 allow mlipay_app game_service:service_manager find;
 allow mlipay_app content_capture_service:service_manager find;
