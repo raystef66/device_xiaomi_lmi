@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from CMI - V12.5.10.0.RJBCNXM
+# All unpinned blobs are extracted from LMI - V13.0.3.0.SJKMIXM
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
@@ -1301,13 +1301,16 @@ vendor/lib64/ls_nq_client.so
 vendor/lib64/se_nq_extn_client.so
 
 # Sensors
+vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
 vendor/etc/init/init.vendor.sensors.rc
+vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/sensors/hals.conf
+vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
@@ -1317,23 +1320,30 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
+vendor/lib64/libssc_default_listener.so
 vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensors configs
+vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
+vendor/etc/sensors/config/bmi26x_0.json
+vendor/etc/sensors/config/bmi26x_0_crt.json
+vendor/etc/sensors/config/bmi26x_0_crt_cfg.json
 vendor/etc/sensors/config/bmp285_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
+vendor/etc/sensors/config/sm8250_adux1050_0.json
 vendor/etc/sensors/config/sm8250_ak991x_0.json
+vendor/etc/sensors/config/sm8250_bmi26x_0.json
 vendor/etc/sensors/config/sm8250_bmp285_0.json
+vendor/etc/sensors/config/sm8250_dual_als.json
 vendor/etc/sensors/config/sm8250_lsm6dso_0.json
-vendor/etc/sensors/config/sm8250_power_0.json
-vendor/etc/sensors/config/sm8250_sx933x_0.json
-vendor/etc/sensors/config/sm8250_tcs3408.json
-vendor/etc/sensors/config/sm8250_tcs3701.json
-vendor/etc/sensors/config/sm8250_vl53l1_tof_0.json
+vendor/etc/sensors/config/sm8250_tsl2560_back.json
+vendor/etc/sensors/config/sm8250_tsl2560_dup.json
+vendor/etc/sensors/config/sm8250_tsl2560_pol.json
 vendor/etc/sensors/config/sns_amd.json
 vendor/etc/sensors/config/sns_amd_sw_disabled.json
 vendor/etc/sensors/config/sns_amd_sw_enabled.json
@@ -1343,8 +1353,8 @@ vendor/etc/sensors/config/sns_ccd.json
 vendor/etc/sensors/config/sns_ccd_v2_walk.json
 vendor/etc/sensors/config/sns_ccd_v3_walk.json
 vendor/etc/sensors/config/sns_cm.json
-vendor/etc/sensors/config/sns_dbtap.json
 vendor/etc/sensors/config/sns_dae.json
+vendor/etc/sensors/config/sns_dbtap.json
 vendor/etc/sensors/config/sns_device_orient.json
 vendor/etc/sensors/config/sns_diag_filter.json
 vendor/etc/sensors/config/sns_dpc.json
@@ -1365,11 +1375,10 @@ vendor/etc/sensors/config/sns_tilt_sw_disabled.json
 vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
-vendor/etc/sensors/config/sx933x_0.json
-vendor/etc/sensors/config/tcs3408.json
-vendor/etc/sensors/config/tcs3701.json
-vendor/etc/sensors/config/vl53l1_tof_0.json
-vendor/etc/sensors/judge_calibrated.json
+vendor/etc/sensors/config/tsl2560_back.json
+vendor/etc/sensors/config/tsl2560_dup.json
+vendor/etc/sensors/config/tsl2560_pol.json
+vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
 
@@ -1414,18 +1423,16 @@ vendor/etc/init/init_thermal-engine.rc
 -vendor/lib64/libthermalclient.so
 
 # Thermal configs
-vendor/etc/thermal-4k.conf
-vendor/etc/thermal-8k.conf
+vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-class0.conf
+vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
-vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-per-camera.conf
 vendor/etc/thermal-per-class0.conf
-vendor/etc/thermal-per-navigation.conf
 vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf

@@ -53,6 +53,7 @@ on boot
     chmod 0666 /sys/class/thermal/thermal_message/temp_state
     chown system system /sys/class/thermal/thermal_message/balance_mode
     chown system system /sys/class/thermal/thermal_message/temp_state
+    write /sys/block/sda/queue/wbt_lat_usec 75000
 
 on charger
     mkdir /mnt/vendor/persist

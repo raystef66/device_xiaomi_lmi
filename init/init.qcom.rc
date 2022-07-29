@@ -61,7 +61,7 @@ on early-init
     chown root system /dev/kmsg
     chmod 0620 /dev/kmsg
     # Load WIGIG platform driver
-    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules msm_11ad_proxy
+    # exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules msm_11ad_proxy
 
 on init
 
@@ -294,7 +294,7 @@ on post-fs-data
     chown radio radio /data/vendor/connectivity
 
     # Create directory used by audio subsystem
-    mkdir /data/vendor/audio 0770 audio audio
+    mkdir /data/vendor/audio 0771 audio audio
 
     # Create directory for audio delta files
     mkdir /data/vendor/audio/acdbdata 0770 media audio
