@@ -70,6 +70,8 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Display
+include hardware/qcom-caf/sm8250/display/config/display-board.mk
+
 TARGET_NO_RAW10_CUSTOM_FORMAT := true
 TARGET_SCREEN_DENSITY := 420
 TARGET_USES_VULKAN := true
