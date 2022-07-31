@@ -743,7 +743,9 @@ vendor/etc/init/feature_enabler_client.rc
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.default.so
 vendor/lib64/libgf_hal.so
+vendor/lib64/libgf_hal6.so
 
 # FM
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
