@@ -88,6 +88,7 @@ static const uint16_t kVersion = HARDWARE_MODULE_API_VERSION(2, 1);
 static const char *kHALClasses[] = {
     "fpc_fod",
     "goodix_fod",
+    "goodix_fod6",
 };
 
 using RequestStatus =
