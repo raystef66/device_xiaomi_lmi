@@ -122,6 +122,7 @@ debug.sf.frame_rate_multiple_threshold=81
 ro.vendor.display.sensortype=2
 ro.vendor.display.paneltype=2
 vendor.display.use_layer_ext=1
+ro.surface_flinger.supports_background_blur=1
 
 # DPM
 persist.vendor.dpm.feature=1
