@@ -74,7 +74,6 @@ include hardware/qcom-caf/sm8250/display/config/display-board.mk
 
 TARGET_NO_RAW10_CUSTOM_FORMAT := true
 TARGET_SCREEN_DENSITY := 420
-TARGET_USES_VULKAN := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
