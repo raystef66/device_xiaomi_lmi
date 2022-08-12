@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_lmi.mk
+    $(LOCAL_DIR)/lineage_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_lmi-eng \
-    corvus_lmi-user \
-    corvus_lmi-userdebug
+    lineage_lmi-eng \
+    lineage_lmi-user \
+    lineage_lmi-userdebug

@@ -11,22 +11,26 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit some common Corvus stuff.
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+# Inherit some common Ricedroid stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set Boot Animination Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
+SUSHI_BOOTANIMATION := 1080
 
 # Gapps
-USE_GAPPS := true
+WITH_GMS := true
 
-PRODUCT_NAME := corvus_lmi
+PRODUCT_NAME := lineage_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F2 Pro
-FOD_RESOURCES := true
+
+# Rom Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
