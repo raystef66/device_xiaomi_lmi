@@ -1,0 +1,12 @@
+allow apexd {
+  vendor_efs_boot_dev
+  vendor_limits_block_device
+  vendor_ssd_block_device
+  vendor_xbl_block_device
+  vendor_limits_block_device
+  vendor_persist_block_device
+  vendor_modem_efs_partition_device
+  vendor_mdtp_device
+  efs_block_device
+  vendor_gpt_block_device
+ }:blk_file { getattr };
