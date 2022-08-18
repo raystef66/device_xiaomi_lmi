@@ -12,26 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
 # Inherit some common Ricedroid stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Set Boot Animination Resolution
-SUSHI_BOOTANIMATION := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
-WITH_GMS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
-PRODUCT_NAME := lineage_lmi
+PRODUCT_NAME := arrow_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F2 Pro
-
-# Rom Flags
-TARGET_HAS_UDFPS := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_ENABLE_BLUR := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
