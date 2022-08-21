@@ -18,8 +18,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
+ARROW_GAPPS := true
 
 PRODUCT_NAME := arrow_lmi
 PRODUCT_DEVICE := lmi
