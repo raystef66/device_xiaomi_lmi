@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2015 The CyanogenMod Project
- *               2017-2020 The LineageOS Project
+ * Copyright (C) 2015-2016 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,10 @@
 
 package org.lineageos.settings.popupcamera;
 
+import android.app.Fragment;
+
 import android.os.Bundle;
+import android.preference.PreferenceActivity;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.android.settingslib.widget.R;
@@ -30,7 +33,16 @@ public class PopupCameraSettingsActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                new PopupCameraSettingsFragment(), TAG_POPUPCAMERA).commit();
+        Fragment fragment = getFragmentManager().findFragmentById(R.id.content_frame);
+        PopupCameraSettingsFragment popupCameraFragment;
+
+        if (fragment == null) {
+            popupCameraFragment = new PopupCameraSettingsFragment();
+            getFragmentManager()
+                .beginTransaction()
+                .add(R.id.content_frame, popupCameraFragment, TAG_POPUPCAMERA)
+                .commit();
+
+        }
     }
 }
