@@ -78,8 +78,8 @@
     <string name="summary_empty" translatable="false"></string>
 
     <!--Display settings fragment -->
-    <string name="display_settings_title">Custom Display Settings</string>
-    <string name="display_settings_summary">HBM</string>
+    <string name="display_settings_title">Custom display settings</string>
+    <string name="display_settings_summary">HBM, DC Dimming</string>
 
     <!-- Action toggles -->
     <string name="action_none">Disabled</string>
@@ -123,7 +123,7 @@
     <string name="hbm_mode_title">High Brightness Mode</string>
     <string name="hbm_mode_summary">High Brightness Mode allows the display panel brightness to go above the maximum stock value. Which helps in improving visibility in direct sunlight</string>
     <string name="hbm_enable_summary_not_supported">HBM is not currently supported by the kernel</string>
-
+    
     <!-- High Touch Polling Rate Support strings -->
     <string name="htsr_enable_title">Increase Touch Responsiveness</string>
     <string name="htsr_enable_summary">Increases touch polling rate to decrease latency</string>
