@@ -63,3 +63,14 @@ prebuilt_etc {
     src: "ueventd.qcom.rc",
     vendor: true,
 }
+
+cc_library_static {
+    name: "libinit_lmi",
+    recovery_available: true,
+    shared_libs: ["libbase"],
+    srcs: ["init_lmi.cpp"],
+    include_dirs: [
+        "system/core/init",
+        "system/libbase/include"
+    ]
+}
