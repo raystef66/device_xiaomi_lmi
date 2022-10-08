@@ -4,6 +4,9 @@ persist.vendor.cne.feature=1
 # DPM
 persist.vendor.dpm.feature=1
 
+# Display
+debug.sf.enable_hwc_vds=1
+
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
 persist.sys.gps.fence=true
