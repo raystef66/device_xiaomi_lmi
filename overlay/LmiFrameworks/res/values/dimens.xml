@@ -11,13 +11,13 @@
     <dimen name="status_bar_height">32dp</dimen>
 
     <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">132px</dimen>
+    <dimen name="rounded_corner_radius">165px</dimen>
 
     <!-- Default adjustment for the software rounded corners since corners are not perfectly
         round. This value is used when retrieving the "radius" of the rounded corner in cases
         where the exact bezier curve cannot be retrieved.  This value will be subtracted from
         rounded_corner_radius to more accurately provide a "radius" for the rounded corner. -->
-    <dimen name="rounded_corner_radius_adjustment">22px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">60px</dimen>
 	
     <!-- for 18dp of padding at 2.75px/dp at default density -->
     <dimen name="rounded_corner_content_padding">70px</dimen>

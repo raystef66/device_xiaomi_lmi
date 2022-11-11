@@ -12,7 +12,7 @@
     <dimen name="keyguard_indication_margin_bottom">30dp</dimen>
 
     <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
-    <dimen name="config_rounded_mask_size">122px</dimen>
+    <dimen name="config_rounded_mask_size">140px</dimen>
     
     <!-- UDFPS recognizing animation vertical position offset -->
     <dimen name="udfps_animation_offset">35dp</dimen>
