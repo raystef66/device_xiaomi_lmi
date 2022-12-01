@@ -16,6 +16,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_LEGACY_BOOTANIMATION := true
 
 PRODUCT_NAME := derp_lmi
 PRODUCT_DEVICE := lmi
