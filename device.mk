@@ -319,6 +319,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/lmi-miuicamera/products/miuicamera.mk)
+
 # Motor
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0-service.xml
