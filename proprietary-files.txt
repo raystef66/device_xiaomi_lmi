@@ -303,6 +303,7 @@ vendor/lib64/com.qti.feature2.sr.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/libalAILDC.so
+vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libc++_shared.so
@@ -347,6 +348,8 @@ vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
+vendor/lib64/libpowercore.so
+vendor/lib64/librelight_only.so
 vendor/lib64/libremosaichvx_stub.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_wrapper.so
