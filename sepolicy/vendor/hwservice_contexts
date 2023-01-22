@@ -1,3 +1,6 @@
+# MiSys
+vendor.xiaomi.hardware.misys::IMiSys                                                 u:object_r:hal_misys_hwservice:s0
+
 # Fingerprint
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon              u:object_r:hal_fingerprint_hwservice:s0
 vendor.xiaomi.hardware.motor::IMotor                                u:object_r:hal_motor_hwservice:s0
