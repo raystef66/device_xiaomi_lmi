@@ -1,15 +1,4 @@
-# All unpinned blobs are extracted from LMI - V13.0.3.0.SJKMIXM
-
-# ACDB
-vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Handset_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
+# All unpinned blobs are extracted from LMI - V14.0.1.0.SJKMIXM
 
 # ACDB Loader
 vendor/lib/libacdb-fts.so
