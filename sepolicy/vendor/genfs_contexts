@@ -80,3 +80,14 @@ genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.q
 # KProfiles
 genfscon sysfs /module/kprofiles/parameters/auto_kprofiles                                                                                  u:object_r:sysfs_kprofiles:s0
 genfscon sysfs /module/kprofiles/parameters/kp_mode                                                                                         u:object_r:sysfs_kprofiles:s0
+
+# label more sysf wakeup
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/active_count								    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/active_time_ms 								    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/event_count 								    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/expire_count 								    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/last_change_ms 								    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/max_time_ms 								    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/name									    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/prevent_suspend_time_ms 							    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/total_time_ms 								    u:object_r:sysfs_wakeup:s0
