@@ -1,1 +1,6 @@
 hal_client_domain(cameraserver, hal_motor)
+
+set_prop(cameraserver, exported_system_prop)
+
+allow cameraserver property_socket:sock_file write;
+allow cameraserver init:unix_stream_socket connectto;
