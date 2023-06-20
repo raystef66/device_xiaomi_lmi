@@ -28,9 +28,7 @@ persist.vendor.motor.                       u:object_r:vendor_motor_prop:s0
 
 # Panel
 vendor.panel.color                          u:object_r:vendor_panel_prop:s0
-vendor.panel.display                        u:object_r:vendor_panel_prop:s0
 vendor.panel.touch_vendor                   u:object_r:vendor_panel_prop:s0
-vendor.panel.vendor                         u:object_r:vendor_panel_prop:s0
 
 # Sensors
 persist.sensor.sardisable                   u:object_r:vendor_sensors_prop:s0

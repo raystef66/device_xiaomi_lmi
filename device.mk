@@ -327,7 +327,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
 # MiuiCamera
-$(call inherit-product-if-exists, vendor/xiaomi/lmi-miuicamera/products/miuicamera.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/lmi-miuicamera/config.mk)
 
 # Motor
 PRODUCT_PACKAGES += \

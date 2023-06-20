@@ -1,6 +1,6 @@
 # Camera
-persist.vendor.camera.privapp.list=com.android.camera
-log.tag.CHIUSECASE=ERROR
+camera.disable_zsl_mode=true
+ro.product.mod_device=lmi_global
 
 # Charger
 ro.charger.enable_suspend=1
