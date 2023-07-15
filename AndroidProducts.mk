@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The xtendedOS Project
+# Copyright (C) 2021
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_lmi.mk
+    $(LOCAL_DIR)/evolution_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_lmi-eng \
-    xtended_lmi-user \
-    xtended_lmi-userdebug
+     evolution_lmi-eng \
+     evolution_lmi-user \
+     evolution_lmi-userdebug
