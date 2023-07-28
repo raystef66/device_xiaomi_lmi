@@ -169,12 +169,17 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor
+    vendor.qti.hardware.btconfigstore@2.0.vendor 
+
 
 ifneq (,$(wildcard vendor/qcom/opensource/commonsys/system/bt))
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.bluetooth.library_name=libbluetooth_qti.so
 endif
+
+# Bluetooth LDAC
+PRODUCT_PACKAGES += \
+    libldacBT_bco
 
 # Camera
 PRODUCT_PACKAGES += \
