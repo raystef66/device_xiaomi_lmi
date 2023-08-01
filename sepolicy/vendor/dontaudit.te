@@ -25,3 +25,6 @@ dontaudit gmscore_app { bt_firmware_file firmware_file }:filesystem getattr;
 dontaudit hal_wifi_default persist_vendor_debug_wifi_prop:file r_file_perms;
 dontaudit kernel self:qipcrtr_socket create;
 dontaudit vendor_hal_capabilityconfigstore_qti_default vendor_cap_configstore_dbg_prop:file r_file_perms;
+
+dontaudit platform_app default_android_hwservice:hwservice_manager find;
+dontaudit platform_app default_android_service:service_manager find;
