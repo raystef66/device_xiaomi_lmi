@@ -14,8 +14,9 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 # Inherit some common Ricedroid stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-# Set Boot Animination Resolution
+TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := evolution_lmi
 PRODUCT_DEVICE := lmi
@@ -23,7 +24,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F2 Pro
 EXTRA_UDFPS_ANIMATIONS := true
-TARGET_USES_MINI_GAPPS := true
+TARGET_USES_PICO_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

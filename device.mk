@@ -332,6 +332,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
 # MiuiCamera
+TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT := true
+TARGET_INCLUDES_MIUI_CAMERA := true
 $(call inherit-product-if-exists, vendor/xiaomi/lmi-miuicamera/config.mk)
 
 # Motor
