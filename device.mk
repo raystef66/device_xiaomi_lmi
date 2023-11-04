@@ -87,7 +87,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
-
+	
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
@@ -258,10 +258,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 	
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \

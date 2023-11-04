@@ -121,9 +121,6 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
     LLVM_IAS=1
 	
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
@@ -215,7 +212,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 VENDOR_SECURITY_PATCH := 2023-03-01
 
 # SELinux
-include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
+include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
