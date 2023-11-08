@@ -227,7 +227,7 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm-service.clearkey
 
 # Fastboot
 PRODUCT_PACKAGES += \
@@ -261,7 +261,6 @@ PRODUCT_PACKAGES += \
     init.mdm.sh \
     init.mi.btmac.sh \
     init.mi.usb.sh \
-    init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
@@ -278,10 +277,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
-
-# KProfiles
-PRODUCT_PACKAGES += \
-    KProfiles
 
 # Media
 PRODUCT_PACKAGES += \
@@ -365,7 +360,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-evolution
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
@@ -499,6 +494,7 @@ PRODUCT_COPY_FILES += \
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
+	android.hardware.wifi.hostapd@1.0.vendor \
     hostapd \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
@@ -515,5 +511,4 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor
+    libdisplayconfig.qti

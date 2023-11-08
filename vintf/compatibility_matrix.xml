@@ -90,8 +90,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>Isigma_miracast</name>
             <instance>sigmahal</instance>
         </interface>
-   </hal>
-      <hal format="hidl" optional="true">
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.qccsyshal</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -99,5 +99,29 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IQccsyshal</name>
             <instance>qccsyshal</instance>
         </interface>
-   </hal>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <version>1</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>1</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+		<version>2</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
